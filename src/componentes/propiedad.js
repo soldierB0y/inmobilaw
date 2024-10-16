@@ -173,7 +173,7 @@ const  Propiedad=()=>{
                 }
             </div>
             <div style={{display:'flex',alignItems:'center',flexDirection:'column'}}>
-                <h1>Destacadas</h1>
+
                 <CarruselPropiedadesDestacadas></CarruselPropiedadesDestacadas>
             </div>
             <FooterLayout></FooterLayout>

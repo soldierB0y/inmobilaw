@@ -46,7 +46,10 @@ const CarruselPropiedadesDestacadas = ()=>{
 
 
     return(
+        <section style={{textAlign:'center'}}>
+                                  <h1 style={{paddingTop:'50px'}}>Destacadas</h1>
         <section className='contenedorPropiedadPrueba'>
+  
         {flechaVisible==true?
             (                <img className='flechaCarrusel flechaCarruselLeft' 
             
@@ -127,6 +130,7 @@ const CarruselPropiedadesDestacadas = ()=>{
             src={flecha}/>)
             :<span style={{display:'none'}}></span>
         }
+    </section>
     </section>
     )
 }

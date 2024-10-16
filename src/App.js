@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
 
-      <Router>
+      <Router basename='/inmobilaw/build/'>
         <Navegador/>
         <Routes>
           <Route path='/' element={<Home ></Home>} />
