@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inmobilaw/static/css/main.7f23c857.css",
-    "main.js": "/inmobilaw/static/js/main.c61ba06a.js",
+    "main.css": "/inmobilaw/static/css/main.fcfd4eed.css",
+    "main.js": "/inmobilaw/static/js/main.a7e4e550.js",
     "static/js/453.3461c040.chunk.js": "/inmobilaw/static/js/453.3461c040.chunk.js",
     "static/media/principal.jpg": "/inmobilaw/static/media/principal.37bcd3de9f6946a845cd.jpg",
     "static/media/no-results.png": "/inmobilaw/static/media/no-results.0cebfc4b1ef6f9ac1019.png",
@@ -15,12 +15,12 @@
     "static/media/arrow-right.png": "/inmobilaw/static/media/arrow-right.45a3c40bbae4b85ddda2.png",
     "static/media/facebook.png": "/inmobilaw/static/media/facebook.b293d5363351752caf25.png",
     "index.html": "/inmobilaw/index.html",
-    "main.7f23c857.css.map": "/inmobilaw/static/css/main.7f23c857.css.map",
-    "main.c61ba06a.js.map": "/inmobilaw/static/js/main.c61ba06a.js.map",
+    "main.fcfd4eed.css.map": "/inmobilaw/static/css/main.fcfd4eed.css.map",
+    "main.a7e4e550.js.map": "/inmobilaw/static/js/main.a7e4e550.js.map",
     "453.3461c040.chunk.js.map": "/inmobilaw/static/js/453.3461c040.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f23c857.css",
-    "static/js/main.c61ba06a.js"
+    "static/css/main.fcfd4eed.css",
+    "static/js/main.a7e4e550.js"
   ]
 }
