@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/inmobilaw/static/css/main.b4ffb1c5.css",
-    "main.js": "/inmobilaw/static/js/main.a89db1bb.js",
+    "main.js": "/inmobilaw/static/js/main.9703d06e.js",
     "static/js/453.3461c040.chunk.js": "/inmobilaw/static/js/453.3461c040.chunk.js",
     "static/media/principal.jpg": "/inmobilaw/static/media/principal.37bcd3de9f6946a845cd.jpg",
     "static/media/no-results.png": "/inmobilaw/static/media/no-results.0cebfc4b1ef6f9ac1019.png",
@@ -17,11 +17,11 @@
     "static/media/facebook.png": "/inmobilaw/static/media/facebook.b293d5363351752caf25.png",
     "index.html": "/inmobilaw/index.html",
     "main.b4ffb1c5.css.map": "/inmobilaw/static/css/main.b4ffb1c5.css.map",
-    "main.a89db1bb.js.map": "/inmobilaw/static/js/main.a89db1bb.js.map",
+    "main.9703d06e.js.map": "/inmobilaw/static/js/main.9703d06e.js.map",
     "453.3461c040.chunk.js.map": "/inmobilaw/static/js/453.3461c040.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4ffb1c5.css",
-    "static/js/main.a89db1bb.js"
+    "static/js/main.9703d06e.js"
   ]
 }
