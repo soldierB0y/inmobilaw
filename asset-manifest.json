@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/inmobilaw/static/css/main.9c3044cf.css",
-    "main.js": "/inmobilaw/static/js/main.b8f9ecf2.js",
-    "static/js/453.3461c040.chunk.js": "/inmobilaw/static/js/453.3461c040.chunk.js",
-    "static/media/principal.jpg": "/inmobilaw/static/media/principal.37bcd3de9f6946a845cd.jpg",
-    "static/media/no-results.png": "/inmobilaw/static/media/no-results.0cebfc4b1ef6f9ac1019.png",
-    "static/media/propiedadDefault": "/inmobilaw/static/media/propiedadDefault.d569eda3d92687a248fb",
-    "static/media/ahorrar-dinero.png": "/inmobilaw/static/media/ahorrar-dinero.581a4ded7e9e8f49d3d5.png",
-    "static/media/cohete.png": "/inmobilaw/static/media/cohete.bcaf8133e0762113d662.png",
-    "static/media/contacto.png": "/inmobilaw/static/media/contacto.e842e96da93840e2f278.png",
-    "static/media/instagram.png": "/inmobilaw/static/media/instagram.ac32ec0a111aeba03298.png",
-    "static/media/logoInmobilaw.jpg": "/inmobilaw/static/media/logoInmobilaw.3e7981801749be2d1e0c.jpg",
-    "static/media/diamond.png": "/inmobilaw/static/media/diamond.f5e035c1842f4bc85459.png",
-    "static/media/whatsapp.png": "/inmobilaw/static/media/whatsapp.8f84e8ce77ed527f4465.png",
-    "static/media/arrow-right.png": "/inmobilaw/static/media/arrow-right.45a3c40bbae4b85ddda2.png",
-    "static/media/facebook.png": "/inmobilaw/static/media/facebook.b293d5363351752caf25.png",
-    "index.html": "/inmobilaw/index.html",
-    "main.9c3044cf.css.map": "/inmobilaw/static/css/main.9c3044cf.css.map",
-    "main.b8f9ecf2.js.map": "/inmobilaw/static/js/main.b8f9ecf2.js.map",
-    "453.3461c040.chunk.js.map": "/inmobilaw/static/js/453.3461c040.chunk.js.map"
+    "main.css": "/static/css/main.9c3044cf.css",
+    "main.js": "/static/js/main.19973194.js",
+    "static/js/453.3461c040.chunk.js": "/static/js/453.3461c040.chunk.js",
+    "static/media/principal.jpg": "/static/media/principal.37bcd3de9f6946a845cd.jpg",
+    "static/media/no-results.png": "/static/media/no-results.0cebfc4b1ef6f9ac1019.png",
+    "static/media/propiedadDefault": "/static/media/propiedadDefault.d569eda3d92687a248fb",
+    "static/media/ahorrar-dinero.png": "/static/media/ahorrar-dinero.581a4ded7e9e8f49d3d5.png",
+    "static/media/cohete.png": "/static/media/cohete.bcaf8133e0762113d662.png",
+    "static/media/contacto.png": "/static/media/contacto.e842e96da93840e2f278.png",
+    "static/media/instagram.png": "/static/media/instagram.ac32ec0a111aeba03298.png",
+    "static/media/logoInmobilaw.jpg": "/static/media/logoInmobilaw.3e7981801749be2d1e0c.jpg",
+    "static/media/diamond.png": "/static/media/diamond.f5e035c1842f4bc85459.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.8f84e8ce77ed527f4465.png",
+    "static/media/arrow-right.png": "/static/media/arrow-right.45a3c40bbae4b85ddda2.png",
+    "static/media/facebook.png": "/static/media/facebook.b293d5363351752caf25.png",
+    "index.html": "/index.html",
+    "main.9c3044cf.css.map": "/static/css/main.9c3044cf.css.map",
+    "main.19973194.js.map": "/static/js/main.19973194.js.map",
+    "453.3461c040.chunk.js.map": "/static/js/453.3461c040.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c3044cf.css",
-    "static/js/main.b8f9ecf2.js"
+    "static/js/main.19973194.js"
   ]
 }
