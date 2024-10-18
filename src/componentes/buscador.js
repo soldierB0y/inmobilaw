@@ -118,10 +118,14 @@ export const Buscador= ()=>
                         
                         if(valorFiltro =='Nombre' && (valorBuscador!=''))
                         {
+                            console.log(window.scrollTo());
+                            window.scrollTo(0,0)
                             navegador('/search?filter='+valorFiltro+'&value='+valorBuscador);
                         }
                         else
                         {
+                            console.log(window.scrollTo());
+                            window.scrollTo(0,0)
                             if (valorBuscador=='' && valorFiltro=='Nombre')
                             {
                                 navegador('/search?filter=&value=');

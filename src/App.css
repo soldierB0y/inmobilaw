@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 /*todo*/
 
@@ -7,13 +9,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
-
+  font-family: "Poppins", sans-serif;
 }
 html
 {
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body{
   width: 99.7dvw;
@@ -27,7 +29,7 @@ body{
 .todo
 {
   width: 100%;
-  padding-top: 18vh;
+  padding-top: 12vh;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -257,6 +259,11 @@ select
   justify-content: center;
   align-items: center;
   gap:5px;
+
+}
+
+.titularCarrusel
+{
   
 }
 
@@ -295,11 +302,11 @@ select
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 50px;
   transition: .2s ease-in-out;
   align-items:center;
-
+  padding-top: 3vw;
   padding-left: 1.5vw;
 }
 
@@ -562,6 +569,61 @@ select
 
 
 
+/*newsletter*/
+.newsletter
+{
+
+  width: 100vw;
+  padding: 0 20%;
+  height: fit-content;
+}
+
+.newsletterContenedor 
+{
+
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  align-items: center;
+  padding: 30px 0 30px 0
+}
+.newsletterContenedor input
+{
+  width: 40%;
+  height: 6vh;
+  text-align: center;
+  border-radius: 10px;
+  border-style: none;
+  outline: none;
+  background-color: rgb(224, 224, 224);
+}
+
+.newsletterInputButton
+{
+  border-style: none;
+  transition: .1s ease-in-out;
+  border-radius: 15px;
+  width: 20% !important;
+  height: 30px;
+  background-color: rgb(0, 0, 0) !important;
+  color:white;
+}
+.newsletterInputButton:hover
+{
+  scale: 1.1;
+  cursor: pointer;
+}
+.newsletter h2
+{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.newsletter p
+{
+  text-align: justify;
+}
+
 /*Footer*/
 .Footer
 {
@@ -586,7 +648,13 @@ select
 
 .navegadorIMG img
 {
-  width: 6vw
+  width: 6vw;
+  transition: .1s ease-in-out;
+}
+.navegadorIMG img:hover
+{
+  cursor: pointer;
+  scale: 1.04;
 }
 
 
@@ -901,15 +969,44 @@ select
   align-items:normal;
 }
 
+
+
+/*contacto*/
+
+.imagenContacto
+{
+  width: 40vw;
+  position: relative;
+  right: 3vw;
+}
+
+.contacto
+{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  padding:50px 50px;
+  margin-bottom: 10vh;
+  box-shadow: 10px 10px rgb(230, 230, 230);
+  gap: 10px;
+}
+
+
 @media only screen and (max-width:1000px)
 {
-
+  /*todo*/
+  .todo
+  {
+    padding-top: 20vh;
+  }
   /*propiedades*/
   .propiedades
   {
     gap: 60px;
     padding-left: 0;
-
+    padding-top: 0;
     display:flex;
     align-items: center;
   }
@@ -952,8 +1049,7 @@ select
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    transition: .2s ease-in-out;
-
+    transition: .5s ease-in-out;
   }
   .imagenNavegador
   {
@@ -963,21 +1059,27 @@ select
   .identificadorBotonNavegador.visible2
   {
     display: flex;
+    opacity: 1;
+    padding: 20px;
 
+  }
+  .navegadorBotones span
+  {
+    gap:0;
   }
 
   .identificadorBotonNavegador
   {
-    display: none;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+
   }
 
   .navegadorBotones
   {
     flex-direction: column-reverse;
     justify-content: center;
-
-
-
   }
   .navegadorIMG img
   {
@@ -1129,4 +1231,24 @@ select
 
   }
 
+
+  /*newsletter*/
+  .newsletter
+  {
+    padding:0 9%;
+  }
+  .newsletterContenedor input
+  {
+    width: 80%;
+  }
+  .newsletterInputButton
+  {
+    width: 70% !important;
+
+  }
+  .newsletter h2
+  {
+    font-size: 5.5vw;
+    text-align:justify;
+  }
 }

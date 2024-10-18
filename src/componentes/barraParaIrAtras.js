@@ -11,6 +11,8 @@ const BackBar=()=>
                     <img className='flechaBack flechaCarruselLeft' src={flechaBack}
                         onClick={
                             ()=>{
+                                console.log(window.scrollTo());
+                                window.scrollTo(0,0)
                                 window.history.back();
                             }
                         }

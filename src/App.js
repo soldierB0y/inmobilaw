@@ -5,7 +5,8 @@ import { Home } from './componentes/home';
 import PaginaDeBusqueda from './componentes/paginaDeBusqueda';
 import Propiedad from './componentes/propiedad';
 import CarruselPropiedadesDestacadas from './componentes/carruselPropiedadesDestacadas';
-
+import Newsletter from './componentes/newsletter';
+import Contactos from '../src/componentes/contacto.js'
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
           <Route path='/' element={<Home ></Home>} />
           <Route path='/search' element={<PaginaDeBusqueda></PaginaDeBusqueda>}/>
           <Route path='/property'element={<Propiedad></Propiedad>}/>
-
+          <Route path='/newsletter' element={<Newsletter></Newsletter>}/>
+          <Route path='/contacto' element={<Contactos/>}/>
         </Routes>
       </Router>
       

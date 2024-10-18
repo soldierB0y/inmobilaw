@@ -24,6 +24,12 @@ export const Navegador=()=>
 
             <span className='navegadorIMG'><img onClick={
                 ()=>{
+                    /*esta funcion es para cuando hagamos click en un link vuelva la vista del usuario a la parte superior
+                    de la pagina esto es indispensable ya que si no no se puede visualizar donde nos encontramos*/
+                    console.log(window.scrollTo());//este console log de alguna forma activa el windows porque si no lo pongo
+                    // por alguna razon aparece vacio
+                    window.scrollTo(0,0)
+
                     navigate('/');
                 }
             } src={logoInmobilaw}/></span>
@@ -32,22 +38,53 @@ export const Navegador=()=>
                     <span className='navegadorBotonesTexto'>
                                 
                                 <Link to={'/'}>
-                                <li className='botonNavegador identificadorBotonNavegador'>
+                                <li onClick={
+                                    ()=>{
+                    /*esta funcion es para cuando hagamos click en un link vuelva la vista del usuario a la parte superior
+                    de la pagina esto es indispensable ya que si no no se puede visualizar donde nos encontramos*/
+                    console.log(window.scrollTo());//este console log de alguna forma activa el windows porque si no lo pongo
+                    // por alguna razon aparece vacio
+                                        window.scrollTo(0,0)
+                                        navigate('/');
+                                    }
+                                } className='botonNavegador identificadorBotonNavegador'>
                                     Home
                                 </li>
                                 </Link>
                                
                         
                         
-                        
-                        <li className='botonNavegador identificadorBotonNavegador'>
-                        Newsletter
-                        </li>
+
+                            <li className='botonNavegador identificadorBotonNavegador'>
+                                <Link onClick={
+                                    ()=>{
+                    /*esta funcion es para cuando hagamos click en un link vuelva la vista del usuario a la parte superior
+                    de la pagina esto es indispensable ya que si no no se puede visualizar donde nos encontramos*/
+                    console.log(window.scrollTo());//este console log de alguna forma activa el windows porque si no lo pongo
+                    // por alguna razon aparece vacio
+                                        window.scrollTo(0,0)
+                                        navigate('/');
+                                    }
+                                } to={'/newsletter'}>
+                                    Newsletter
+                                </Link>
+                            </li>
+
 
                         <li className='botonNavegador identificadorBotonNavegador'>Nosotros</li>
 
-                        <li className='botonNavegador identificadorBotonNavegador'>
-                        Contacto
+                        <li 
+                            onClick={
+                                ()=>{
+                                    console.log(window.scrollTo());
+                                    window.scrollTo(0,0)
+                                    navigate('/contacto');
+                                }
+                            }
+                        
+                        
+                        className='botonNavegador identificadorBotonNavegador'>
+                            Contacto
                         </li>
                     </span>
                 <span>
@@ -68,7 +105,7 @@ export const Navegador=()=>
 
 
 
-/*botonNavegador*/ 
+/*esto es un handle para que se extienda verticalmente el navegador y muestre los botones*/ 
 function navegadorClick()
 {
     let identificadorBotonNavegador= document.querySelectorAll('.identificadorBotonNavegador')

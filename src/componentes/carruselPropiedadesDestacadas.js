@@ -46,8 +46,8 @@ const CarruselPropiedadesDestacadas = ()=>{
 
 
     return(
-        <section style={{textAlign:'center'}}>
-                                  <h1 style={{paddingTop:'50px'}}>Destacadas</h1>
+        <section style={{textAlign:'center',paddingTop:'100px'}}>
+                                  <h1 style={{backgroundColor:'white',paddingTop:'25px'}}>Destacadas</h1>
         <section className='contenedorPropiedadPrueba'>
   
         {flechaVisible==true?

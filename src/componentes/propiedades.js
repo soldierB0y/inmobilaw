@@ -36,7 +36,8 @@ export const Propiedades= ()=>
     //Funcion para enviar informacion iniciar Busqueda 
     function iniciarBusqueda(filtro,valor)
     {
-        
+        console.log(window.scrollTo());
+        window.scrollTo(0,0)
         navegador('/search?filter=tipo'+filtro+'&value='+valor);
     }
 
@@ -101,6 +102,11 @@ export const Propiedades= ()=>
                             <div className='propiedad' id='propiedad'
                                 onClick={
                                     ()=>{
+                    /*esta funcion es para cuando hagamos click en un link vuelva la vista del usuario a la parte superior
+                    de la pagina esto es indispensable ya que si no no se puede visualizar donde nos encontramos*/
+                    console.log(window.scrollTo());//este console log de alguna forma activa el windows porque si no lo pongo
+                    // por alguna razon aparece vacio
+                                        window.scrollTo(0,0)
                                         navegador('/property?filter=nombre&&value='+propiedad.nombre);                                    }
                                 }
                             >
