@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import '../App.css';
 import BackBar from './barraParaIrAtras';
 import FooterLayout from './Footer';
-import propiedadDefault from '../imagenes/generales/propiedadDefault'
+import propiedadDefault from '../imagenes/generales/propiedadDefault.webp'
 import { PropiedadesDestacadas } from './propiedadesDestacadas';
 import { useSearchParams } from 'react-router-dom';
 import NoEncontrado from './noEncontrado';

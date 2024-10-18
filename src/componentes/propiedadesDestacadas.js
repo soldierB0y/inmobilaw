@@ -1,6 +1,6 @@
 import '../App.css'
 import diamond from '../imagenes/iconos/diamond.png';
-import propiedadDefault from '../imagenes/generales/propiedadDefault'
+import propiedadDefault from '../imagenes/generales/propiedadDefault.webp'
 import { useEffect, useState } from 'react'
 import inicial from '../imagenes/iconos/cohete.png'
 import costo from '../imagenes/iconos/ahorrar-dinero.png'
