@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
 
-      <Router basename='/inmobilaw/'>
+      <Router>
         <Navegador/>
         <Routes>
           <Route path='/' element={<Home ></Home>} />
@@ -22,6 +22,7 @@ function App() {
           <Route path='/property'element={<Propiedad></Propiedad>}/>
           <Route path='/newsletter' element={<Newsletter></Newsletter>}/>
           <Route path='/contacto' element={<Contactos/>}/>
+          
         </Routes>
       </Router>
       
